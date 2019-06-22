@@ -1,4 +1,4 @@
-package repository;
+package rest.repository;
 
 import rest.entities.CouponEntity;
 import rest.entities.ShopEntity;

@@ -1,11 +1,11 @@
 package rest.service;
 
-import repository.CouponRepository;
+import rest.repository.CouponRepository;
 import rest.entities.CouponEntity;
 import rest.mappers.CouponMapper;
 import rest.models.Coupon;
 import rest.entities.ShopEntity;
-import repository.ShopRepository;
+import rest.repository.ShopRepository;
 
 import java.util.List;
 

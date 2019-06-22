@@ -1,4 +1,4 @@
-package repository;
+package rest.repository;
 
 import rest.entities.ShopEntity;
 
@@ -17,7 +17,7 @@ public class ShopRepository {
         List<ShopEntity> shops = new ArrayList<>();
         for (int i = 0; i <= 10; i++) {
             ShopEntity shopEntity = new ShopEntity();
-            shopEntity.setId((long) i);
+            shopEntity.setId(String.valueOf(i));
             shopEntity.setName("Shop " + i);
             shops.add(shopEntity);
         }

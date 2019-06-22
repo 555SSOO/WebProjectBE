@@ -2,7 +2,7 @@ package rest.service;
 
 import rest.mappers.ShopMapper;
 import rest.models.Shop;
-import repository.ShopRepository;
+import rest.repository.ShopRepository;
 
 import java.util.List;
 
