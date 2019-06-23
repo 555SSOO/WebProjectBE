@@ -7,20 +7,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c49324d-33c0-4b05-8709-cd64856051a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/rest/constants/UserType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rest/controller/UserEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rest/entities/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rest/mappers/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rest/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rest/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rest/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_27_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rest/repository/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rest-js.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rest-js.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/CouponRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rest/repository/CouponRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repository/ShopRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rest/repository/ShopRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/rest_js_war_exploded/WEB-INF/classes/rest/coupon/Coupon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/rest_js_war_exploded/WEB-INF/classes/rest/coupon/CouponEndpoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/rest_js_war_exploded/WEB-INF/classes/rest/coupon/CouponEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/rest_js_war_exploded/WEB-INF/classes/rest/coupon/CouponMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/rest_js_war_exploded/WEB-INF/classes/rest/coupon/CouponRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/rest_js_war_exploded/WEB-INF/classes/rest/coupon/CouponService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/rest_js_war_exploded/WEB-INF/classes/rest/shop/Shop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/rest_js_war_exploded/WEB-INF/classes/rest/shop/ShopEndpoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/rest_js_war_exploded/WEB-INF/classes/rest/shop/ShopEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/rest_js_war_exploded/WEB-INF/classes/rest/shop/ShopMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/rest_js_war_exploded/WEB-INF/classes/rest/shop/ShopRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/rest_js_war_exploded/WEB-INF/classes/rest/shop/ShopService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rest-js/rest/coupon/Coupon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rest-js/rest/coupon/CouponEndpoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rest-js/rest/coupon/CouponEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rest-js/rest/coupon/CouponMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rest-js/rest/coupon/CouponRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rest-js/rest/coupon/CouponService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rest-js/rest/shop/Shop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rest-js/rest/shop/ShopEndpoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rest-js/rest/shop/ShopEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rest-js/rest/shop/ShopMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rest-js/rest/shop/ShopRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rest-js/rest/shop/ShopService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rest/controller/CouponEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rest/controller/CouponEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rest/controller/ShopEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rest/controller/ShopEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rest/controller/UserEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rest/controller/UserEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rest/entities/CouponEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rest/entities/CouponEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rest/entities/ShopEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rest/entities/ShopEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rest/models/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rest/models/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rest/entities/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rest/entities/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rest/models/Coupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rest/models/Coupon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rest/repository/CouponRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rest/repository/CouponRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rest/repository/ShopRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rest/repository/ShopRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rest/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rest/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rest/service/CouponService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rest/service/CouponService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rest/service/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rest/service/ShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rest/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rest/service/UserService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,6 +56,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -83,36 +124,43 @@
     <session id="-433098952">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="6" />
           <entry key="iml" value="1" />
-          <entry key="java" value="67" />
+          <entry key="java" value="105" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="6" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="67" />
+          <entry key="JAVA" value="105" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="640" />
+          <entry key="dummy" value="8" />
+          <entry key="java" value="4493" />
+          <entry key="txt" value="11" />
           <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="640" />
+          <entry key="JAVA" value="4490" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="SQL" value="3" />
           <entry key="XML" value="13" />
         </counts>
       </usages-collector>
@@ -121,19 +169,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rest/entities/ShopEntity.java">
+        <entry file="file://$PROJECT_DIR$/src/rest/repository/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="274">
+              <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/rest/repository/CouponRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="e#3300#3301#0" expanded="true" />
+                <element signature="e#3359#3360#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rest/controller/ShopEndpoint.java">
+        <entry file="file://$PROJECT_DIR$/src/rest/entities/UserEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="13" selection-start-line="13" selection-end-line="24" />
+            <state relative-caret-position="248">
+              <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,10 +206,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rest/mappers/ShopMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/rest/mappers/CouponMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" selection-start-line="11" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="70">
+              <caret line="43" column="50" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,41 +220,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rest/controller/UserEndpoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="339">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rest/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rest/repository/ShopRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="32" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rest/repository/UserRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="252">
+              <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -201,17 +246,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rest/mappers/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rest/repository/CouponRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -220,12 +256,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rest/service/ShopService.java">
+        <entry file="file://$PROJECT_DIR$/src/rest/service/CouponService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" selection-start-line="10" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="23" column="65" lean-forward="true" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#1600#1601#0" expanded="true" />
+                <element signature="e#1648#1649#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/rest/controller/CouponEndpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#954#955#0" expanded="true" />
+                <element signature="e#1003#1004#0" expanded="true" />
+                <element signature="e#1409#1410#0" expanded="true" />
+                <element signature="e#1452#1453#0" expanded="true" />
+                <element signature="e#2124#2125#0" expanded="true" />
+                <element signature="e#2176#2177#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -249,6 +309,10 @@
     <findStrings>
       <find>console.lo</find>
       <find>sh</find>
+      <find>java.util.Date</find>
+      <find>insertCoupon</find>
+      <find>ShopRepository</find>
+      <find>addCoupon</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -257,13 +321,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/vu/che/mvcrest/ServletTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vu/che/mvcrest/ServletBroker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vu/che/mvcrest/RandomServletExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vu/che/mvcrest/DispatcherByName.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vu/che/mvcrest/model/ExampleModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vu/che/mvcrest/DispatcherToJSP.java" />
         <option value="$PROJECT_DIR$/src/main/java/vu/che/mvcrest/rest/RestApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/vu/che/mvcrest/rest/RestExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/vu/che/mvcrest/rest/LollipopControler.java" />
@@ -296,18 +353,25 @@
         <option value="$PROJECT_DIR$/src/rest/coupon/Coupon.java" />
         <option value="$PROJECT_DIR$/src/rest/coupon/CouponMapper.java" />
         <option value="$PROJECT_DIR$/src/rest/coupon/CouponRepository.java" />
-        <option value="$PROJECT_DIR$/src/rest/controller/ShopEndpoint.java" />
-        <option value="$PROJECT_DIR$/src/rest/service/CouponService.java" />
         <option value="$PROJECT_DIR$/src/rest/models/Shop.java" />
         <option value="$PROJECT_DIR$/src/rest/constants/UserType.java" />
         <option value="$PROJECT_DIR$/src/rest/models/User.java" />
-        <option value="$PROJECT_DIR$/src/rest/entities/ShopEntity.java" />
-        <option value="$PROJECT_DIR$/src/rest/entities/UserEntity.java" />
         <option value="$PROJECT_DIR$/src/rest/mappers/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/rest/controller/UserEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/rest/models/Coupon.java" />
+        <option value="$PROJECT_DIR$/src/rest/entities/ShopEntity.java" />
+        <option value="$PROJECT_DIR$/src/rest/repository/Repository.java" />
+        <option value="$PROJECT_DIR$/src/rest/entities/CouponEntity.java" />
+        <option value="$PROJECT_DIR$/src/rest/service/ShopService.java" />
+        <option value="$PROJECT_DIR$/src/rest/controller/ShopEndpoint.java" />
         <option value="$PROJECT_DIR$/src/rest/repository/ShopRepository.java" />
-        <option value="$PROJECT_DIR$/src/rest/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/rest/controller/UserEndpoint.java" />
         <option value="$PROJECT_DIR$/src/rest/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/rest/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/rest/entities/UserEntity.java" />
+        <option value="$PROJECT_DIR$/src/rest/mappers/CouponMapper.java" />
+        <option value="$PROJECT_DIR$/src/rest/controller/CouponEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/rest/service/CouponService.java" />
+        <option value="$PROJECT_DIR$/src/rest/repository/CouponRepository.java" />
       </list>
     </option>
   </component>
@@ -338,18 +402,15 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="492" />
-    <option name="y" value="-17" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
-    <option name="height" value="1057" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -419,48 +480,46 @@
             </path>
             <path>
               <item name="rest-js" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rest-js" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rest-js" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rest-js" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561204715844" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../projekatmat/kupoman/kupoman-be" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561310081557" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kupoman-fe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.35431653" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\01\Desktop\RAF\sem6\web\projekat\rest-js\src\rest" />
+    <key name="IntroduceConstantDialog.RECENTS_KEY">
+      <recent name="rest.repository.Repository" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vindu\Desktop\faks\mvcrest\web\WEB-INF\lib" />
-      <recent name="C:\Users\Vindu\Desktop\faks\mvcrest\src" />
-      <recent name="C:\Users\Vindu\Desktop\faks\mvcrest\web\WEB-INF" />
-      <recent name="C:\Users\Vindu\Desktop\faks\mvcrest\web" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="vu.che.mvcrest" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\01\Desktop\RAF\sem6\web\projekat\rest-js\web\WEB-INF\lib" />
+      <recent name="C:\Users\01\Desktop\RAF\sem6\web\projekat\rest-js\src\rest" />
       <recent name="C:\Users\Vindu\Desktop\faks\mvcrest\web\WEB-INF\lib" />
+      <recent name="C:\Users\Vindu\Desktop\faks\mvcrest\src" />
+      <recent name="C:\Users\Vindu\Desktop\faks\mvcrest\web\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -610,9 +669,15 @@
       </method>
     </configuration>
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.291" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/" />
+      <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
+      <deployment>
+        <artifact name="rest-js:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_rest-js" />
       </server-settings>
@@ -670,7 +735,6 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method v="2">
-        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="rest-js:war exploded" />
         </option>
@@ -780,18 +844,27 @@
       <workItem from="1560721913570" duration="1046000" />
       <workItem from="1560723292251" duration="338000" />
       <workItem from="1561198312420" duration="1505000" />
-      <workItem from="1561199844322" duration="4345000" />
+      <workItem from="1561199844322" duration="17497000" />
+      <workItem from="1561239172913" duration="16411000" />
     </task>
+    <task id="LOCAL-00001" summary="Added users">
+      <created>1561204776397</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561204776397</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59287000" />
+    <option name="totallyTimeSpent" value="88850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4968051" visible="true" weight="0.20202559" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4968051" visible="true" weight="0.20415778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -801,8 +874,8 @@
       <window_info id="Web" order="7" sideWeight="0.50319487" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32819384" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.12444934" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.47577092" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31938326" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.36343613" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -833,8 +906,97 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added users" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added users" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/rest/service/CouponService.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/rest/repository/CouponRepository.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/rest/controller/CouponEndpoint.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/rest/service/ShopService.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/rest/controller/CouponEndpoint.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/rest/repository/CouponRepository.java</url>
+          <line>102</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/rest/repository/UserRepository.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/rest/repository/UserRepository.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/rest/repository/CouponRepository.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/rest/controller/CouponEndpoint.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/rest/repository/CouponRepository.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>coupon.getValidFrom()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>userService.getUser(username, password)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>(Coupon)json.get(&quot;coupon&quot;)</expression-string>
         <language-id>JAVA</language-id>
@@ -895,13 +1057,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/jersey-server.jar!/org/glassfish/jersey/server/model/internal/AbstractJavaResourceMethodDispatcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rest/coupon/Shop.java" />
     <entry file="file://$PROJECT_DIR$/src/rest/coupon/CouponController.java" />
     <entry file="file://$PROJECT_DIR$/web/index.jsp" />
@@ -917,124 +1072,18 @@
     <entry file="file://$PROJECT_DIR$/mvcrest.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rest/RestApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rest/filters/CorsFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rest/user/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rest/controller/CouponEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rest/service/CouponService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rest/models/Coupon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="26" column="70" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rest/user/User.java" />
     <entry file="file://$PROJECT_DIR$/src/rest/models/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rest/constants/UserType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rest/entities/CouponEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rest/entities/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rest/mappers/CouponMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rest/controller/ShopEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" selection-start-line="13" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rest/service/ShopService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" selection-start-line="10" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1051,13 +1100,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rest/entities/ShopEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rest/models/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -1068,44 +1110,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rest/mappers/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/rest/entities/CouponEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="468">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rest/controller/UserEndpoint.java">
+    <entry file="file://$PROJECT_DIR$/src/rest/repository/Repository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="469">
+          <caret line="37" column="84" selection-start-line="37" selection-start-column="84" selection-end-line="37" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rest/models/Coupon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rest/entities/ShopEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rest/RestApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rest/constants/UserType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rest/controller/ShopEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rest/service/ShopService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rest/repository/ShopRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="24">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="75" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rest/repository/CouponRepository.java">
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/jersey-server.jar!/org/glassfish/jersey/server/model/internal/ResourceMethodInvocationHandlerFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="275">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rest/repository/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/rest/mappers/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        <state relative-caret-position="170">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1114,10 +1213,102 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rest/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        <state relative-caret-position="252">
+          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rest/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rest/entities/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rest/mappers/CouponMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="43" column="50" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/jersey-server.jar!/org/glassfish/jersey/server/model/internal/AbstractJavaResourceMethodDispatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rest/controller/UserEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rest/controller/CouponEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="e#2124#2125#0" expanded="true" />
+            <element signature="e#2176#2177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rest/service/CouponService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="65" lean-forward="true" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#1600#1601#0" expanded="true" />
+            <element signature="e#1648#1649#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rest/repository/CouponRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#3300#3301#0" expanded="true" />
+            <element signature="e#3359#3360#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1195,7 +1386,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>lib</last-edited>
+          <last-edited>sqlite-jdbc-3.27.2.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

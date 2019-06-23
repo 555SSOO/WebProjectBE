@@ -1,11 +1,10 @@
 package rest.controller;
 
+import rest.models.Coupon;
 import rest.models.User;
 import rest.service.UserService;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
 
@@ -22,6 +21,22 @@ public class UserEndpoint {
     @Produces(MediaType.APPLICATION_JSON)
     public List<User> getUsers() {
         return userService.getUsers();
+    }
+
+    @POST
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
+    public User addCoupon(User user) {
+        return userService.addUser(user);
+    }
+
+    @GET
+    @Path("{username}/{password}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public User getUser(@PathParam("username") String username, @PathParam("password") String password) {
+
+        return userService.getUser(username, password);
+
     }
 
 

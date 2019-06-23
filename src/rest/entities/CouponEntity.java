@@ -2,7 +2,8 @@ package rest.entities;
 
 import lombok.Data;
 
-import java.util.Date;
+import java.sql.Date;
+
 
 /**
  * Model kupona cemo koristiti kao jedinicu transporta informacija
@@ -13,6 +14,19 @@ import java.util.Date;
  */
 @Data
 public class CouponEntity {
+
+    public CouponEntity() {
+    }
+
+    public CouponEntity(Long id, ShopEntity shop, String productName, Float discountedPrice, Float originalPrice, Date validFrom, Date validTo) {
+        this.id = id;
+        this.shop = shop;
+        this.productName = productName;
+        this.discountedPrice = discountedPrice;
+        this.originalPrice = originalPrice;
+        this.validFrom = validFrom;
+        this.validTo = validTo;
+    }
 
     private Long id;
     private ShopEntity shop;

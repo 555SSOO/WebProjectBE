@@ -1,6 +1,7 @@
 package rest.controller;
 
 import rest.models.Coupon;
+import rest.repository.Repository;
 import rest.service.CouponService;
 
 import javax.ws.rs.*;
@@ -30,7 +31,15 @@ public class CouponEndpoint {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public List<Coupon> getCoupons() {
+
         return service.getCoupons();
+    }
+
+    @GET
+    @Path("/active")
+    @Produces(MediaType.APPLICATION_JSON)
+    public List<Coupon> getActiveCoupons() {
+        return service.getActiveCoupons();
     }
 
     /**
@@ -66,6 +75,13 @@ public class CouponEndpoint {
         service.deleteCoupon(id);
 
         return Response.ok().build();
+    }
+
+    @GET
+    @Path("{shopId}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public List<Coupon> getCoupons(@PathParam("shopId") Integer id) {
+        return service.getCouponsForShop(id);
     }
 
 }

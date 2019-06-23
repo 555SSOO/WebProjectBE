@@ -21,7 +21,15 @@ public class CouponService {
     }
 
     public List<Coupon> getCoupons() {
-        return couponMapper.mapToModelList(CouponRepository.getCoupons());
+        return couponMapper.mapToModelList(CouponRepository.getAllCoupons());
+    }
+
+    public List<Coupon> getActiveCoupons() {
+        return couponMapper.mapToModelList(CouponRepository.getActiveCoupons());
+    }
+
+    public List<Coupon> getCouponsForShop(Integer id) {
+        return couponMapper.mapToModelList(CouponRepository.getCouponsForShop(id));
     }
 
     /**
@@ -44,10 +52,11 @@ public class CouponService {
         ShopEntity shopEntity = ShopRepository.getShopById(c.getShop().getId());
         couponEntity.setShop(shopEntity);
 
-        return couponMapper.mapToModel(CouponRepository.addCoupon(couponEntity));
+        return couponMapper.mapToModel(CouponRepository.insertCoupon(couponEntity));
     }
 
     public void deleteCoupon(int i) {
         CouponRepository.deleteCoupon(i);
     }
+
 }

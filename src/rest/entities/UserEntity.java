@@ -6,6 +6,15 @@ import rest.constants.UserType;
 @Data
 public class UserEntity {
 
+    public UserEntity() {
+    }
+
+    public UserEntity(String firstName, String lastName, UserType privilegeLevel) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.privilegeLevel = privilegeLevel;
+    }
+
     private String id;
     private String firstName;
     private String lastName;
